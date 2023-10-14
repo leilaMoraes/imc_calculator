@@ -3,6 +3,7 @@ import 'package:imc_calculator_dart/classes/person.dart';
 
 void main() {
   try {
+    print('Calculadora IMC.');
     stdout.write("Informe seu nome: ");
     var name = stdin.readLineSync();
 
