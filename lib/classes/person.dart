@@ -1,3 +1,5 @@
+import 'dart:collection';
+
 class Person {
   String _name = "";
   double _weight = 0;
@@ -34,9 +36,10 @@ class Person {
   }
 
   double calculateIMC() {
-    if (_height <= 45) {
+    if (_height <= 0.45) {
       throw Exception("Altura inválida. Deve ser maior do que 45 cm.");
     }
-    return _weight / (_height * _height);
+    double imc = _weight / (_height * _height);
+    return double.parse(imc.toStringAsFixed(1));
   }
 }
