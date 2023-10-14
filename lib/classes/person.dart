@@ -32,4 +32,11 @@ class Person {
   double getHeight() {
     return _height;
   }
+
+  double calculateIMC() {
+    if (_height <= 45) {
+      throw Exception("Altura inválida. Deve ser maior do que 45 cm.");
+    }
+    return _weight / (_height * _height);
+  }
 }
