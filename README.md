@@ -1,4 +1,4 @@
-# ⭐ Boas-Vindas ao Repositório IMC Calculator ⚖️
+# ⭐ Boas-Vindas ao Repositório IMC Calculator ⚖️ :a
 > *Clique nas setas para ver mais* 
 <details>
 <summary><strong>👩‍💻 O Que Foi Desenvolvido</strong></summary><br />
@@ -16,9 +16,9 @@ Tabela usada como referência para o cálculo:
 <summary><strong>👀 Para Rodar Localmente</strong></summary><br />
 
 1. Clone o repositório   
-  `git clone https://github.com/leilaMoraes/imc_calculator.git`
+  `git clone https://github.com/leilaMoraes/imc_calculator_dart.git`
 2. Navegue até a pasta do repositório clonado  
-    `cd imc_calculator`
+    `cd imc_calculator_dart`
 3. Para fazer o cálculo IMC    
   `dart run`
 </details>
